@@ -30,7 +30,7 @@ from ultralytics import YOLO
 
 # ── Configuration ──────────────────────────────────────────────────────────────
 BASE       = os.path.dirname(os.path.abspath(__file__))
-IMG_DIR    = r"C:\Users\HP\Desktop\ugv\ugv-indian-signs-models\valid\valid\images"
+IMG_DIR    = #path to image dataset
 OUT_DIR    = os.path.join(BASE, "noise_threshold_results")
 MODEL_PATH = os.path.join(BASE, "yolo26n.onnx")
 
